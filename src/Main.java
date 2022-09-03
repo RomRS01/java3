@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int nachBalans = 150;
-        int popolnjenie = 3000;
-        int balans;
-        if (popolnjenie > 1000) {
-            balans = nachBalans + popolnjenie + popolnjenie / 100;
+        int initialBalance = 150;
+        int replenishment = 3000;
+        int balance;
+        if (replenishment > 1000) {
+            balance = initialBalance + replenishment + replenishment / 100;
 
         } else {
-            balans = nachBalans + popolnjenie;
+            balance = initialBalance + replenishment;
         }
-        System.out.println("Итоговый баланс " + balans + " рублей");
+        System.out.println("Итоговый баланс " + balance + " рублей");
 
 
     }
